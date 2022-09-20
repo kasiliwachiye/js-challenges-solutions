@@ -5,11 +5,11 @@
 let arr = [1, 2, 3];
 
 function halfValues(arr) {
-  let hVals = [];
+  let newArray = [];
   arr.forEach((value) => {
-    hVals.push(value / 2);
+    newArray.push(value / 2);
   });
-  return hVals;
+  return newArray;
 }
 
 console.log(halfValues(arr));
