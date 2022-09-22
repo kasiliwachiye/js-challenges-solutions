@@ -11,4 +11,12 @@ function sumOdd(arr) {
   }, 0);
 }
 
-sumOdd(arr)
+sumOdd(arrayIntegers3)
+
+var mySqrt = function(x) {
+  let sq = x;
+   
+  return Math.floor(sqrt)
+};
+
+console.log(mySqrt(16))
