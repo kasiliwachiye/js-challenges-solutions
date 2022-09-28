@@ -7,4 +7,10 @@ function sumArray(array) {
   console.log(result);
 }
 
-sumArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+function sumArray2(array) {
+  return array.reduce((acc, next) => {
+    return acc += next
+  }, 0)
+}
+
+console.log(sumArray2([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));

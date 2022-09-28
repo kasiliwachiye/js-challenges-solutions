@@ -21,4 +21,4 @@ function guessingGame(amount) {
   };
 }
 
-console.log(guessingGame(7)(2));
+console.log(guessingGame(7)(5));

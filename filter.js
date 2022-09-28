@@ -7,10 +7,12 @@ function find(arr, searchValue) {
 }
 
 function removeVowels(str) {
-  let vowels = "aeiou";
-  let array = str.toLowerCase().split("");
+  let vowels = "aeiouAEIOU";
+  let array = str.split("");
   return array.filter((value) => vowels.indexOf(value) === -1).join("");
 }
+
+console.log(removeVowels('This website is for losers LOL!'))
 
 function doubleOddNumbers(arr) {
   return arr.filter(num => {
