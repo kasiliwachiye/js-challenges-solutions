@@ -17,7 +17,7 @@ function accumulatorPlusNextValue(arr) {
 // console.log(accumulatorPlusNextValue(arr));
 
 const order = cats.reduce((accumulator, cat) => {
-  return accumulator += " " + cat;
+  return (accumulator += " " + cat);
 }, "The biggest cats in order are:");
 
 // console.log(order);
@@ -73,5 +73,15 @@ function vowelCount(str) {
   }, {});
 }
 
-// console.log(vowelCount(string));
+console.log(vowelCount(string));
 
+function extractValue(array, key) {
+  return array.reduce((acc, next) => {
+    acc.push(next[key]);
+    return acc;
+  }, []);
+}
+
+// let cats = ["tiger", "lion", "jaguar", "cougar", "leopard"];
+
+// console.log(extractValue(cats,2))

@@ -12,11 +12,12 @@ function removeVowels(str) {
   return array.filter((value) => vowels.indexOf(value) === -1).join("");
 }
 
-console.log(removeVowels('This website is for losers LOL!'))
+console.log(removeVowels("This website is for losers LOL!"));
 
 function doubleOddNumbers(arr) {
-  return arr.filter(num => {
-    return num % 2 !== 0
-  }).map(num => num * 2)
+  return arr
+    .filter((num) => {
+      return num % 2 !== 0;
+    })
+    .map((num) => num * 2);
 }
-

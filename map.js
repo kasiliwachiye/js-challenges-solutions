@@ -10,12 +10,12 @@ function valueTimesIndex(arr) {
 
 console.log(valueTimesIndex([1, 2, 3]));
 
-// function extractKey(arr, key) {
-//   return arr.map(val => val[key])
-// }
+function extractKey(arr, key) {
+  return arr.map(val => val[key])
+}
 
-// console.log(extractKey([1,2,3], 2))
+console.log(extractKey([1,2,3], 2))
 
-// function extractFullName(arr) {
-//   return arr.map(person => val.firstName + ' ' + val.LastName)
-// }
+function extractFullName(arr) {
+  return arr.map(person => val.firstName + ' ' + val.LastName)
+}
