@@ -4,19 +4,19 @@ let arrayIntegers3 = arrayIntegers.slice(0, 3); //returns [1,2,3]
 console.log(arrayIntegers3);
 
 function sumOdd(arr) {
-  return arr.reduce((a,n) => {
+  return arr.reduce((a, n) => {
     if (n % 2 !== 0) {
-      return a + n
+      return a + n;
     }
   }, 0);
 }
 
-sumOdd(arrayIntegers3)
+sumOdd(arrayIntegers3);
 
-var mySqrt = function(x) {
+var mySqrt = function (x) {
   let sq = x;
-   
-  return Math.floor(sqrt)
+
+  return Math.floor(sqrt);
 };
 
-console.log(mySqrt(16))
+console.log(mySqrt(16));
